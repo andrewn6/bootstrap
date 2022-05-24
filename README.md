@@ -1,4 +1,4 @@
-# Bootstrap
+
 
 ## What this does
 - Installs homebrew
