@@ -13,3 +13,5 @@ brew tap homebrew/autoupdate
 brew tap homebrew/cask
 brew tap hackclub/tap
 brew tap homebrew/core
+brew tap ethereum/ethereum
+brew tap hashicorp/tap
