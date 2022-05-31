@@ -7,7 +7,10 @@ sudo softwareupdate --install-rosetta
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+printf 'Tapping... Bundling...'
 brew update
+
+# Tap
 brew tap homebrew/cask-fonts
 brew tap homebrew/autoupdate
 brew tap homebrew/cask
@@ -15,3 +18,9 @@ brew tap hackclub/tap
 brew tap homebrew/core
 brew tap ethereum/ethereum
 brew tap hashicorp/tap
+
+# Bundles
+brew bundle install
+
+printf 'Installing dotfiles...'
+git clone https://github.com/anddddrew/dotfiles.git
